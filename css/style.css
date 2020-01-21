@@ -70,7 +70,6 @@ aside {
 
 main {
     width: 50%;
-    height: 1000px;
     float: left;
     padding: 0 20px;
 }
@@ -83,7 +82,6 @@ main .content {
 
 footer {
     width: 100%;
-    height: 300px;
     background-color: white;
     position: relative;
     border: 1px solid black;
@@ -214,4 +212,44 @@ h2 {
 .paragrafoarticolo .categoria {
     display: block;
     text-align: center;
+}
+
+.recenti, .commenti, .textwidget, .categories {
+    width: 25%;
+    float: left;
+    padding: 0 30px 20px 30px;
+    text-align: center;
+}
+
+.partefooter li {
+    color: grey;
+}
+
+.nero {
+    color: black;
+}
+
+.categories li {
+    display: block;
+}
+
+footer h3 {
+    margin-left: 0;
+}
+
+.textwidget p {
+    color: grey;
+}
+
+.uno {
+    border-bottom: 1px solid lightgrey;
+}
+
+em {
+    color: grey;
+}
+
+.due {
+    text-align: center;
+    padding-bottom: 25px;
 }
