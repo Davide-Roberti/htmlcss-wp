@@ -12,6 +12,8 @@
 
 .sfondo {
     background-color: grey;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fa7%2Fab%2Fbb%2Fa7abbb8d90b2c387adb4274f4199367a.jpg&f=1&nofb=1);
+    background-size: cover;
 }
 
 .container {
