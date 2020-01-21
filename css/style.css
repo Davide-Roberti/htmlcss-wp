@@ -169,9 +169,49 @@ h3 {
 }
 
 .big {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .menu li:hover {
     background-color: grey;
+}
+
+.titoloarticolo {
+    padding: 25px;
+}
+
+.verde {
+    color: rgb(51, 204, 51);
+}
+
+.entry::before {
+    content: "\1F30A";
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+.immaginearticolo {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.paragrafoarticolo {
+    padding: 25px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.paragrafoarticolo p {
+    padding-bottom: 25px;
+}
+
+.paragrafoarticolo .categoria::before {
+    content: "\2630";
+}
+
+.paragrafoarticolo .categoria {
+    display: block;
+    text-align: center;
 }
