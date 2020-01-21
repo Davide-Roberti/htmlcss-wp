@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.sfondo {
+    background-color: grey;
+}
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    border: 1px solid black;
+    top: 10px;
+}
+
+.intestazione {
+    height: 158px;
+    width: 100%;
+    background-color: orange;
+    border: 7px solid white;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titolo {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.menu {
+    width: 100%;
+    height: 40px;
+    background-color: lightgrey;
+    text-align: center;
+    line-height: 20px;
+}
+
+.centro{
+    margin: 30px 0 20px;
+}
+
+aside {
+    width: 25%;
+    float: left;
+}
+
+main {
+    width: 50%;
+    height: 1000px;
+    float: left;
+    padding: 0 20px;
+}
+
+main .content {
+    height: 100%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    border: 1px solid black;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.blocco {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: white;
+    position: relative;
+    border: 1px solid black;
+}
+
+.search {
+    height: 100px;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.research {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ricerca {
+    height: 40px;
+    width: 100px;
+}
+
+.bottone {
+    background-color: grey;
+    color: white;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+h3 {
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.pagine p {
+    color: rgb(51, 204, 51);
+    width: 80%;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+.pagine {
+    margin-bottom: 30px;
+}
+
+.blocchetti {
+    padding: 20px;
+}
+
+.pagine p:hover {
+    background-color: lightgrey;
+    border-top: 2px solid grey;
+}
+
+.contenuto {
+    color: rgb(51, 204, 51);
+}
+
+.big {
+    font-size: 25px;
+}
+
+.menu li:hover {
+    background-color: grey;
+}
